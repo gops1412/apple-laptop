@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+
+<head> 
+<title>My Sign In page</title>
+<style >
+
+body{
+			background-image: url(alo.jpg);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+			color: white;
+
+		}
+.btn{
+	padding-left: 0;
+	letter-spacing: 1px;
+	font-weight: bold; 
+
+}
+.btn:hover{
+	box-shadow: 2px 2px 5px #555;
+	background-color: #ddd;
+}
+.login-form
+{
+	width: 380px;
+	height: 420px;
+	border-radius: 10px; 
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	background-color: rgba(0,0,0,0.4);
+	box-shadow: 0 0 1px rgba(0,0,0,0.7) ;
+	color: #fff;
+	padding-top: 60px;
+	}
+
+
+</style>
+
+</head>
+<body><br><br>
+ 
+	<form  name="input" action="index.html" method="post" >
+
+		<div class="container">
+			<div class="login-form">
+
+		<h1>Sign In</h1>
+			<input type="text" placeholder="User" name=""value""><br><br>
+			  <input type="email" id="email" name="email" placeholder=" Email Id" ><br><br>
+			  	<input type="password" placeholder="password" name=""value""><br><br>
+           <input type="tel" id="phone" name="phone"   placeholder="phone no" 
+                                                            pattern= "[0-9]{10}" > <br><br>
+          select the gender:<br>
+<input type="radio" name="gender" >Male
+<input type="radio" name="gender" >Female                                                  
+   <br>
+  <div class="btn"><center>
+  <input type="submit" value="Submit">  <input type="submit" value="reset"></div></center>
+
+                                     
+</body>
+</form>
+</html>
